@@ -36,4 +36,14 @@ func TestIMServiceImpl_Send(t *testing.T) {
 			assert.NotNil(t, got)
 		})
 	}
+	/*
+		Unit tests
+		for _, tt := range tests {
+		    t.Run(tt.name, func(t *testing.T) {
+		       //s := &IMServiceImpl{}
+		       //got, err := s.Send(tt.args.ctx, tt.args.req)
+		       assert.True(t, true)
+		    })
+		}
+	*/
 }
